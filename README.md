@@ -21,7 +21,3 @@ CUDA_VISIBLE_DEVICES=0 python tools/train.py --cfg configs/cifar100/dkd/vgg13_vg
 # Train PCD
 CUDA_VISIBLE_DEVICES=0 python tools/train.py --cfg configs/cifar100/pcd/vgg13_vgg8.yaml --same-t PCD.ALPHA 1. PCD.STEPS 3. PCD.T 4.
 ```
-
-## Acknowledgment
-
-This codebase is heavily borrowed from [Knowledge Distillation with Refined Logits (ICCV 2025)](https://github.com/zju-SWJ/RLD). Sincere gratitude to the authors for their distinguished efforts. 
