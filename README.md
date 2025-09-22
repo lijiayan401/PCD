@@ -21,7 +21,7 @@ CUDA_VISIBLE_DEVICES=0 python tools/train.py --cfg configs/cifar100/dkd/vgg13_vg
 # Train PCD
 CUDA_VISIBLE_DEVICES=0 python tools/train.py --cfg configs/cifar100/pcd/vgg13_vgg8.yaml --same-t PCD.ALPHA 1. PCD.STEPS 3. PCD.T 4.
 ```
-##Citation
+## Citation
 @misc{li2025progressiveclassleveldistillation,
       title={Progressive Class-level Distillation}, 
       author={Jiayan Li and Jun Li and Zhourui Zhang and Jianhua Xu},
